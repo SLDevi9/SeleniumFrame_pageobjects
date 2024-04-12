@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+
+    <test thread-count ="2"  name="Error_methods">
+        <classes>
+            <class name="rahulsettyacademy.submitorder.Error_Handling">
+
+            </class>
+        </classes>
+    </test>
+    <test thread-count ="2"  name="Submit">
+        <classes>
+            <class name="rahulsettyacademy.submitorder.Submit_Order">
+
+            </class>
+        </classes>
+    </test>
+</suite>
