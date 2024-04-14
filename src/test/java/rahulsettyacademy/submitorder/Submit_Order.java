@@ -26,7 +26,7 @@ public class Submit_Order extends ConfigClass {
         checkoutPage.selectCountry("india");
        confirmationPage=  checkoutPage.submitOrder();
         String message = confirmationPage.verifyConfirmationMessage();
-        Assert.assertTrue(message.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+        Assert.assertTrue(message.equalsIgnoreCase("THANKYOU FOR THE ."));
 
     }
     @Test(dependsOnMethods= {"Order"})
