@@ -30,11 +30,13 @@ super(driver);
 
    By MessageBy = By.cssSelector(".toast-error");
 
+
     public ProductCatalogue loginApplication(String email, String password){
         userEmail.sendKeys(email);
         userPassword.sendKeys(password);
         login.click();
         ProductCatalogue productCatalogue = new ProductCatalogue(driver);
+
         return productCatalogue;
     }
     public void goTo(){

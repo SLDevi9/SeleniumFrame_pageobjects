@@ -6,6 +6,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import rahulsettyacademy.pageobjects.LandingPage;
@@ -15,21 +16,34 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
+import java.util.logging.LogManager;
+
+import org.apache.logging.log4j.*;
+import rahulsettyacademy.submitorder.Error_Handling;
+
+import static java.util.logging.LogManager.getLogManager;
 
 public class ConfigClass  {
     public WebDriver driver;
     public LandingPage landingpage;
+    public static Logger logger = org.apache.logging.log4j.LogManager.getLogger(ConfigClass.class);
 
     public WebDriver browserintilization() throws IOException {
 
         Properties prop = new Properties();
         FileInputStream file = new FileInputStream("C:\\Users\\swamy\\IdeaProjects\\SeleniumFrame_pageobjects\\src\\main\\java\\rahulesettyacademy\\globaldata\\Globaldata.Properties");
         prop.load(file);
-        String BrowserName = prop.getProperty("browser");
+        String BrowserName=  System.getProperty("browser")!=null ? System.getProperty("browser") : prop.getProperty("browser");
 
         if (BrowserName.contains("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
+            logger.info("browser setup done");
+        }
+        else if (BrowserName.contains("firefox")) {
+                WebDriverManager.chromedriver().setup();
+                driver = new FirefoxDriver();
+            logger.info("browser setup done");
         }
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -50,15 +64,19 @@ public String getScreenshot(String testCaseName, WebDriver driver) throws IOExce
     public LandingPage browserlunch() throws IOException {
 
         driver = browserintilization();
+       logger.info("browser initilized");
         landingpage = new LandingPage(driver);
         landingpage.goTo();
+        logger.info("application launched & returned");
         return landingpage;
+
     }
 
     @AfterMethod(alwaysRun = true)
     public void close_browser() throws InterruptedException {
-        Thread.sleep(2000);
+      //  Thread.sleep(2000);
         driver.close();
+        logger.info("browser closed successfully");
     }
 
 
