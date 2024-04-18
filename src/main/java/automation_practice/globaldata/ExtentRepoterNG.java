@@ -1,4 +1,4 @@
-package rahulesettyacademy.globaldata;
+package automation_practice.globaldata;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;

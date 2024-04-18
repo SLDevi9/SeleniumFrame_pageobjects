@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>SeleniumFrame_pageobjects</artifactId>
+    <artifactId>POM_Framework</artifactId>
     <version>1.0-SNAPSHOT</version>
 <!---Make sure compiler version should be 1.8 -->
     <properties>

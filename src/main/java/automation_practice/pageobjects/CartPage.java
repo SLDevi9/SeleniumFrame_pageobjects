@@ -1,15 +1,17 @@
-package rahulsettyacademy.pageobjects;
+package automation_practice.pageobjects;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import rahulsettacademy.AbstractComponet.Abstract_Component;
+import automation_practice.AbstractComponet.Abstract_Component;
 
 import java.util.List;
 
 public class CartPage extends Abstract_Component {
 WebDriver  driver;
+    public static Logger logger = org.apache.logging.log4j.LogManager.getLogger(CartPage.class);
 
     public CartPage(WebDriver driver) {
         super(driver);
@@ -25,11 +27,13 @@ WebElement Checkoutele;
     public Boolean VerifyProductDisplay(String productName){
         Boolean match = cartProducts.stream()
         .anyMatch(cartproduct -> cartproduct.getText().equalsIgnoreCase(productName));
+        logger.info("verifying selected items in the cart page");
        return match;
     }
 
     public CheckoutPage goToCheckout(){
         Checkoutele.click();
+        logger.info("retured to the checkout page");
     return new CheckoutPage(driver);
     }
 

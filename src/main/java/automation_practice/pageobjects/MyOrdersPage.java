@@ -1,9 +1,9 @@
-package rahulsettyacademy.pageobjects;
+package automation_practice.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import rahulsettacademy.AbstractComponet.Abstract_Component;
+import automation_practice.AbstractComponet.Abstract_Component;
 
 import java.util.List;
 

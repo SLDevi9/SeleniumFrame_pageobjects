@@ -1,4 +1,4 @@
-package rahulsettyacademy.TestComponent;
+package automation_practice.TestComponent;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

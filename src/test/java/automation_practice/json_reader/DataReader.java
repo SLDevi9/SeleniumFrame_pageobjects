@@ -1,4 +1,4 @@
-package rahulsettyacademy.json_reader;
+package automation_practice.json_reader;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

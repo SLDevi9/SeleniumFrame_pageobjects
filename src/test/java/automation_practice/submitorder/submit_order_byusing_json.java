@@ -1,15 +1,15 @@
-package rahulsettyacademy.submitorder;
+package automation_practice.submitorder;
 
+import automation_practice.json_reader.DataReader;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import rahulsettyacademy.TestComponent.ConfigClass;
-import rahulsettyacademy.json_reader.DataReader;
-import rahulsettyacademy.pageobjects.CartPage;
-import rahulsettyacademy.pageobjects.CheckoutPage;
-import rahulsettyacademy.pageobjects.ConfirmationPage;
-import rahulsettyacademy.pageobjects.ProductCatalogue;
+import automation_practice.TestComponent.ConfigClass;
+import automation_practice.pageobjects.CartPage;
+import automation_practice.pageobjects.CheckoutPage;
+import automation_practice.pageobjects.ConfirmationPage;
+import automation_practice.pageobjects.ProductCatalogue;
 
 import java.io.IOException;
 import java.util.HashMap;

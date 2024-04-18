@@ -1,4 +1,4 @@
-package rahulsettacademy.AbstractComponet;
+package automation_practice.AbstractComponet;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,8 +8,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import rahulsettyacademy.pageobjects.CartPage;
-import rahulsettyacademy.pageobjects.MyOrdersPage;
+import automation_practice.pageobjects.CartPage;
+import automation_practice.pageobjects.MyOrdersPage;
 
 import java.time.Duration;
 

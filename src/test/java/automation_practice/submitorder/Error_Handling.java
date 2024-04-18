@@ -1,14 +1,10 @@
-package rahulsettyacademy.submitorder;
+package automation_practice.submitorder;
 
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import loggers_demo.Log4j_log;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import rahulsettyacademy.TestComponent.ConfigClass;
-import rahulsettyacademy.TestComponent.Retry;
+import automation_practice.TestComponent.ConfigClass;
+import automation_practice.TestComponent.Retry;
 
 public class Error_Handling extends ConfigClass {
     ExtentReports extent;

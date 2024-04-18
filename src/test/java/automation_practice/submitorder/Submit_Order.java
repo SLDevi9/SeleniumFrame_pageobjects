@@ -1,15 +1,15 @@
-package rahulsettyacademy.submitorder;
+package automation_practice.submitorder;
 
+import automation_practice.TestComponent.ConfigClass;
+import automation_practice.pageobjects.*;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import rahulsettyacademy.TestComponent.ConfigClass;
 import rahulsettyacademy.pageobjects.*;
 
 import java.util.List;
-import java.util.logging.LogManager;
 
 public class Submit_Order extends ConfigClass {
     ConfirmationPage confirmationPage;
@@ -35,6 +35,7 @@ public class Submit_Order extends ConfigClass {
     }
     @Test(dependsOnMethods= {"Order"})
     public void MyOrde(){
+        logger.info("dependsOnMethods = Order");
         landingpage.loginApplication("sivalakshmidevi9@gmail.com", "Amma@123udemy");
         landingpage.MyOrderpage();
         MyOrdersPage myOrdersPage = new MyOrdersPage(driver);

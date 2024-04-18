@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SeleniumFrame_pageobjects(failed)">
     <classes>
-      <class name="rahulsettyacademy.submitorder.Submit_Order">
+      <class name="rahulsettyacademy.submitorder.submit_order_byusing_json">
         <methods>
-          <include name="Order" invocation-numbers="0"/>
+          <include name="Order" invocation-numbers="0 1"/>
           <include name="browserlunch"/>
           <include name="close_browser"/>
         </methods>
-      </class> <!-- rahulsettyacademy.submitorder.Submit_Order -->
+      </class> <!-- rahulsettyacademy.submitorder.submit_order_byusing_json -->
     </classes>
   </test> <!-- SeleniumFrame_pageobjects(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
