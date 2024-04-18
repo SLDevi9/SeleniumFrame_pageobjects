@@ -1,0 +1,102 @@
+[INFO ] 2024-04-18 11:26:42.642 [main] ConfigClass - browser setup done
+[INFO ] 2024-04-18 11:26:42.785 [main] ConfigClass - browser initilized
+[INFO ] 2024-04-18 11:26:43.479 [main] ConfigClass - application launched & returned to landingpage
+[INFO ] 2024-04-18 11:26:43.904 [main] LandingPage - credential for the application and login  and returnning to the ProductCatalogue page
+[INFO ] 2024-04-18 11:26:43.904 [main] Submit_Order - productCatalogue returned
+[INFO ] 2024-04-18 11:26:44.781 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:26:44.809 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:26:44.881 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:26:57.762 [main] CartPage - verifying selected items in the cart page
+[INFO ] 2024-04-18 11:26:57.829 [main] CartPage - retured to the checkout page
+[INFO ] 2024-04-18 11:26:58.399 [main] CheckoutPage - selecting country in cheout page
+[INFO ] 2024-04-18 11:26:58.434 [main] CheckoutPage - returning to the order confirmation page
+[INFO ] 2024-04-18 11:26:58.767 [main] ConfigClass - browser closed successfully
+[INFO ] 2024-04-18 11:26:59.692 [main] ConfigClass - browser setup done
+[INFO ] 2024-04-18 11:26:59.824 [main] ConfigClass - browser initilized
+[INFO ] 2024-04-18 11:27:01.771 [main] ConfigClass - application launched & returned to landingpage
+[INFO ] 2024-04-18 11:27:02.002 [main] LandingPage - credential for the application and login  and returnning to the ProductCatalogue page
+[INFO ] 2024-04-18 11:27:02.003 [main] Submit_Order - productCatalogue returned
+[INFO ] 2024-04-18 11:27:02.264 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:27:02.294 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:27:02.380 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:27:03.785 [main] ConfigClass - browser closed successfully
+[INFO ] 2024-04-18 11:29:46.998 [main] ConfigClass - browser setup done
+[INFO ] 2024-04-18 11:29:47.134 [main] ConfigClass - browser initilized
+[INFO ] 2024-04-18 11:29:47.622 [main] ConfigClass - application launched & returned to landingpage
+[INFO ] 2024-04-18 11:29:47.902 [main] LandingPage - credential for the application and login  and returnning to the ProductCatalogue page
+[INFO ] 2024-04-18 11:29:47.903 [main] Submit_Order - productCatalogue returned
+[INFO ] 2024-04-18 11:29:48.189 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:29:48.221 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:29:48.284 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:30:01.125 [main] CartPage - verifying selected items in the cart page
+[INFO ] 2024-04-18 11:30:01.190 [main] CartPage - retured to the checkout page
+[INFO ] 2024-04-18 11:30:01.770 [main] CheckoutPage - selecting country in cheout page
+[INFO ] 2024-04-18 11:30:01.805 [main] CheckoutPage - returning to the order confirmation page
+[INFO ] 2024-04-18 11:30:02.190 [main] ConfigClass - browser closed successfully
+[INFO ] 2024-04-18 11:30:03.045 [main] ConfigClass - browser setup done
+[INFO ] 2024-04-18 11:30:03.171 [main] ConfigClass - browser initilized
+[INFO ] 2024-04-18 11:30:03.814 [main] ConfigClass - application launched & returned to landingpage
+[INFO ] 2024-04-18 11:30:04.072 [main] LandingPage - credential for the application and login  and returnning to the ProductCatalogue page
+[INFO ] 2024-04-18 11:30:04.073 [main] Submit_Order - productCatalogue returned
+[INFO ] 2024-04-18 11:30:04.402 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:30:04.439 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:30:04.637 [main] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:30:17.479 [main] CartPage - verifying selected items in the cart page
+[INFO ] 2024-04-18 11:30:17.544 [main] CartPage - retured to the checkout page
+[INFO ] 2024-04-18 11:30:18.116 [main] CheckoutPage - selecting country in cheout page
+[INFO ] 2024-04-18 11:30:18.149 [main] CheckoutPage - returning to the order confirmation page
+[INFO ] 2024-04-18 11:30:18.415 [main] ConfigClass - browser closed successfully
+[INFO ] 2024-04-18 11:30:19.189 [main] ConfigClass - browser setup done
+[INFO ] 2024-04-18 11:30:19.318 [main] ConfigClass - browser initilized
+[INFO ] 2024-04-18 11:30:19.774 [main] ConfigClass - application launched & returned to landingpage
+[INFO ] 2024-04-18 11:30:19.774 [main] Submit_Order - dependsOnMethods = Order
+[INFO ] 2024-04-18 11:30:20.056 [main] LandingPage - credential for the application and login  and returnning to the ProductCatalogue page
+[INFO ] 2024-04-18 11:30:20.581 [main] ConfigClass - browser closed successfully
+[INFO ] 2024-04-18 11:41:03.100 [main] ConfigClass - browser setup done
+[INFO ] 2024-04-18 11:41:03.244 [main] ConfigClass - browser initilized
+[INFO ] 2024-04-18 11:41:03.939 [main] ConfigClass - application launched & returned to landingpage
+[INFO ] 2024-04-18 11:41:04.235 [main] LandingPage - credential for the application and login  and returnning to the ProductCatalogue page
+[INFO ] 2024-04-18 11:41:04.235 [main] ConfigClass - application enter mail and  password 
+[INFO ] 2024-04-18 11:41:04.348 [main] LandingPage - finding error message for incorrect password or mail and returned error message
+[INFO ] 2024-04-18 11:41:04.371 [main] ConfigClass - error message received
+[INFO ] 2024-04-18 11:41:04.577 [main] ConfigClass - browser closed successfully
+[INFO ] 2024-04-18 11:42:22.932 [TestNG-tests-2] ConfigClass - browser setup done
+[INFO ] 2024-04-18 11:42:22.932 [TestNG-tests-1] ConfigClass - browser setup done
+[INFO ] 2024-04-18 11:42:23.094 [TestNG-tests-1] ConfigClass - browser initilized
+[INFO ] 2024-04-18 11:42:23.094 [TestNG-tests-2] ConfigClass - browser initilized
+[INFO ] 2024-04-18 11:42:24.608 [TestNG-tests-2] ConfigClass - application launched & returned to landingpage
+[INFO ] 2024-04-18 11:42:24.679 [TestNG-tests-1] ConfigClass - application launched & returned to landingpage
+[INFO ] 2024-04-18 11:42:25.159 [TestNG-tests-2] LandingPage - credential for the application and login  and returnning to the ProductCatalogue page
+[INFO ] 2024-04-18 11:42:25.159 [TestNG-tests-2] Submit_Order - productCatalogue returned
+[INFO ] 2024-04-18 11:42:25.188 [TestNG-tests-1] LandingPage - credential for the application and login  and returnning to the ProductCatalogue page
+[INFO ] 2024-04-18 11:42:25.189 [TestNG-tests-1] ConfigClass - application enter mail and  password 
+[INFO ] 2024-04-18 11:42:25.340 [TestNG-tests-1] LandingPage - finding error message for incorrect password or mail and returned error message
+[INFO ] 2024-04-18 11:42:25.372 [TestNG-tests-1] ConfigClass - error message received
+[INFO ] 2024-04-18 11:42:25.608 [TestNG-tests-2] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:42:25.635 [TestNG-tests-1] ConfigClass - browser closed successfully
+[INFO ] 2024-04-18 11:42:25.668 [TestNG-tests-2] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:42:25.755 [TestNG-tests-2] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:42:38.621 [TestNG-tests-2] CartPage - verifying selected items in the cart page
+[INFO ] 2024-04-18 11:42:38.686 [TestNG-tests-2] CartPage - retured to the checkout page
+[INFO ] 2024-04-18 11:42:39.283 [TestNG-tests-2] CheckoutPage - selecting country in cheout page
+[INFO ] 2024-04-18 11:42:39.319 [TestNG-tests-2] CheckoutPage - returning to the order confirmation page
+[INFO ] 2024-04-18 11:42:39.613 [TestNG-tests-2] ConfigClass - browser closed successfully
+[INFO ] 2024-04-18 11:42:40.442 [TestNG-tests-2] ConfigClass - browser setup done
+[INFO ] 2024-04-18 11:42:40.565 [TestNG-tests-2] ConfigClass - browser initilized
+[INFO ] 2024-04-18 11:42:41.079 [TestNG-tests-2] ConfigClass - application launched & returned to landingpage
+[INFO ] 2024-04-18 11:42:41.331 [TestNG-tests-2] LandingPage - credential for the application and login  and returnning to the ProductCatalogue page
+[INFO ] 2024-04-18 11:42:41.331 [TestNG-tests-2] Submit_Order - productCatalogue returned
+[INFO ] 2024-04-18 11:42:41.596 [TestNG-tests-2] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:42:41.638 [TestNG-tests-2] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:42:41.714 [TestNG-tests-2] ProductCatalogue - Collecting list of Elements and returned elements
+[INFO ] 2024-04-18 11:42:54.695 [TestNG-tests-2] CartPage - verifying selected items in the cart page
+[INFO ] 2024-04-18 11:42:54.752 [TestNG-tests-2] CartPage - retured to the checkout page
+[INFO ] 2024-04-18 11:42:55.318 [TestNG-tests-2] CheckoutPage - selecting country in cheout page
+[INFO ] 2024-04-18 11:42:55.353 [TestNG-tests-2] CheckoutPage - returning to the order confirmation page
+[INFO ] 2024-04-18 11:42:55.741 [TestNG-tests-2] ConfigClass - browser closed successfully
+[INFO ] 2024-04-18 11:42:56.515 [TestNG-tests-2] ConfigClass - browser setup done
+[INFO ] 2024-04-18 11:42:56.644 [TestNG-tests-2] ConfigClass - browser initilized
+[INFO ] 2024-04-18 11:42:57.204 [TestNG-tests-2] ConfigClass - application launched & returned to landingpage
+[INFO ] 2024-04-18 11:42:57.205 [TestNG-tests-2] Submit_Order - dependsOnMethods = Order
+[INFO ] 2024-04-18 11:42:57.451 [TestNG-tests-2] LandingPage - credential for the application and login  and returnning to the ProductCatalogue page
+[INFO ] 2024-04-18 11:42:58.042 [TestNG-tests-2] ConfigClass - browser closed successfully
