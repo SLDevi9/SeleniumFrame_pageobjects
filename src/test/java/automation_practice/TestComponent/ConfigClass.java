@@ -27,7 +27,7 @@ public class ConfigClass  {
     public WebDriver browserintilization() throws IOException {
 
         Properties prop = new Properties();
-        FileInputStream file = new FileInputStream("C:\\Users\\swamy\\IdeaProjects\\SeleniumFrame_pageobjects\\SeleniumFrame_pageobjects\\src\\main\\java\\rahulesettyacademy\\globaldata\\Globaldata.Properties");
+        FileInputStream file = new FileInputStream("C:\\Users\\swamy\\IdeaProjects\\SeleniumFrame_pageobjects\\src\\main\\java\\automation_practice\\globaldata\\Globaldata.Properties");
         prop.load(file);
         String BrowserName=  System.getProperty("browser")!=null ? System.getProperty("browser") : prop.getProperty("browser");
 
