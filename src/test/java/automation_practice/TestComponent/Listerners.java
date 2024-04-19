@@ -10,7 +10,7 @@ import org.testng.ITestResult;
 import automation_practice.globaldata.ExtentRepoterNG;
 
 import java.io.IOException;
-
+//Required depencies "Home » com.aventstack » extentreports"
 public class Listerners extends ConfigClass implements ITestListener {
  ExtentTest test;
     ExtentReports extent =  ExtentRepoterNG.getReportObject();
