@@ -6,17 +6,18 @@
             <include name="Purchase"/>
         </run>
     </groups>
+    <listeners>
+        <listener class-name="automation_practice.TestComponent.Listerners"/>
+    </listeners>
     <test thread-count ="2"  name="Error_methods">
         <classes>
             <class name="automation_practice.submitorder.Error_Handling">
-
             </class>
         </classes>
     </test>
     <test thread-count ="2"  name="Submit">
         <classes>
             <class name="automation_practice.submitorder.Submit_Order">
-
             </class>
         </classes>
     </test>

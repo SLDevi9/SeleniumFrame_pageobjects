@@ -16,9 +16,8 @@ public class Submit_Order extends ConfigClass {
     String ProductName = "IPHONE 13 PRO";
     public static Logger logger = org.apache.logging.log4j.LogManager.getLogger(Submit_Order.class);
     @Test(dataProvider = "getdata", groups ={"Purchase"})
-    public void Order(String email, String Password, String productName) throws InterruptedException {
 
-        //
+    public void Order(String email, String Password, String productName) throws InterruptedException {
         ProductCatalogue productCatalogue= landingpage.loginApplication(email, Password);
         logger.info("productCatalogue returned");
         List<WebElement>products = productCatalogue.getProductList();

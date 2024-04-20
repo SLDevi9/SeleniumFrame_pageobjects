@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="All Test Suite">
+<suite parallel="classes" name="All Test Suite">
 <listeners>
     <listener class-name="automation_practice.TestComponent.Listerners"/>
 </listeners>
-    <test thread-count ="2"  name="Error_methods">
-        <classes>
-            <class name="automation_practice.submitorder.Error_Handling">
-            </class>
-        </classes>
-    </test>
+
     <test thread-count ="2"  name="Submit">
         <classes>
-            <class name="automation_practice.submitorder.Submit_Order">
+            <class name="automation_practice.submitorder.Submit_Order"/>
+            <class name="automation_practice.submitorder.Error_Handling"/>
 
-            </class>
         </classes>
     </test>
 </suite>

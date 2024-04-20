@@ -58,7 +58,7 @@ public void addProductTocart(String ProductName){
 
     prod.findElement(addToCart).click();
     waitforElementToAppear(toastMessage);
-    waitforElementToDisAppear(spinner);
+   waitforElementToDisAppear(spinner);
 }
 
 }
